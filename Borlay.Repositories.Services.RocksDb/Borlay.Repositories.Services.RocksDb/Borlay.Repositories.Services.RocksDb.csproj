@@ -1,7 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Paulius Kanoverskis</Authors>
+    <RepositoryUrl>https://github.com/Borlay/Borlay.Repositories.Services.RocksDb.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Borlay Repository Service RocksDb</PackageTags>
+    <PackageProjectUrl>http://borlay.org</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Borlay.Protocol" Version="1.0.13" />
+    <PackageReference Include="Borlay.Repositories" Version="1.0.9" />
+    <PackageReference Include="Borlay.Repositories.RocksDb" Version="1.0.1" />
+    <PackageReference Include="Borlay.Repositories.Services" Version="1.0.4" />
+    <PackageReference Include="Borlay.Serialization" Version="1.0.8" />
+  </ItemGroup>
 
 </Project>
