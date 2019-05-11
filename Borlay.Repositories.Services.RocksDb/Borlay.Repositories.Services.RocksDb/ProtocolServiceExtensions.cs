@@ -2,7 +2,7 @@
 using Borlay.Repositories;
 using Borlay.Repositories.RocksDb;
 using Borlay.Repositories.Services;
-using Borlay.Serialization.Converters;
+using Borlay.Serialization;
 using RocksDbSharp;
 using System;
 using System.IO;
