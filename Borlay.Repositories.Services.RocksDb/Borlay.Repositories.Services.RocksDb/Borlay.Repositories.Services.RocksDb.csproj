@@ -8,14 +8,14 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Borlay Repository Service RocksDb</PackageTags>
     <PackageProjectUrl>http://borlay.org</PackageProjectUrl>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Borlay.Protocol" Version="1.0.15" />
-    <PackageReference Include="Borlay.Repositories" Version="1.0.9" />
-    <PackageReference Include="Borlay.Repositories.RocksDb" Version="1.0.1" />
-    <PackageReference Include="Borlay.Repositories.Services" Version="1.0.5" />
+    <PackageReference Include="Borlay.Protocol" Version="1.0.18" />
+    <PackageReference Include="Borlay.Repositories" Version="1.0.11" />
+    <PackageReference Include="Borlay.Repositories.RocksDb" Version="1.0.3" />
+    <PackageReference Include="Borlay.Repositories.Services" Version="1.0.6" />
     <PackageReference Include="Borlay.Serialization" Version="1.0.9" />
   </ItemGroup>
 
